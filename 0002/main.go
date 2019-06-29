@@ -48,6 +48,7 @@ func (head *ListNode) ReverseList() *ListNode {
 	return prev
 }
 
+// https://blog.csdn.net/qq_35807952/article/details/80622296
 func (head *ListNode) ReverseListV2() *ListNode {
 	if head == nil || head.Next == nil {
 		return head
